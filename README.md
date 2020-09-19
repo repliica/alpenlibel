@@ -1,8 +1,6 @@
 <b><p align="center">inventory web-app backend that created using restfull api laravel 7</p></b>
 <b><p align="center">fontend part will be release soon</p></b>
 <p p align="center">credit to @al26 & @AwkwardGlasses</p>
-<br><br>
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
