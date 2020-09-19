@@ -1,0 +1,13 @@
+{
+    "name": "AddImageColumnToAssetsTable",
+    "alias": "addimagecolumntoassetstable",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\AddImageColumnToAssetsTable\\Providers\\AddImageColumnToAssetsTableServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

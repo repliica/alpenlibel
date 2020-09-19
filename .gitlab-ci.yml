@@ -1,0 +1,17 @@
+stages:
+    - dev
+
+Dev:
+    stage: dev
+    before_script:
+    - apt-get update -qq
+    - apt-get install -qq git
+    - wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
+    script:
+    - apt-get install -y ruby
+    - gem install dpl
+    - dpl --provider=heroku --app=$HEROKU_APP --api-key=$HEROKU_API_KEY
+    - export HEROKU_API_KEY=$HEROKU_API_KEY
+    - heroku run --app $HEROKU_APP migrate
+    only:
+     - dev
